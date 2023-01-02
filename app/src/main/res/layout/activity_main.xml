@@ -55,6 +55,7 @@
                 style="@style/Gray.Button"/>
             <com.google.android.material.button.MaterialButton
                 android:text="/"
+                android:onClick="onOperationClick"
                 android:id="@+id/btn_division"
                 style="@style/Orange.Button." />
 
@@ -84,6 +85,7 @@
                 style="@style/Gray.Dark.Button"/>
             <com.google.android.material.button.MaterialButton
                 android:text="X"
+                android:onClick="onOperationClick"
                 android:id="@+id/btn_multiply"
                 style="@style/Orange.Button." />
 
@@ -143,7 +145,7 @@
                 style="@style/Gray.Dark.Button"/>
             <com.google.android.material.button.MaterialButton
                 android:text="+"
-                android:onClick="nimNumberClick"
+                android:onClick="onOperationClick"
                 android:id="@+id/btn_plus"
                 style="@style/Orange.Button." />
 
